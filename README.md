@@ -14,3 +14,9 @@
 - 데이터 늘리기 수정 (RAM을 너무 많이 잡아먹기 때문에 한 텀 끝나고 다음 텀을 실행할 수 있게 쪼개기)
 - tfrecords로 파일을 불러들이는 부분 추가(코드는 있으나 정리 필요)
 - 기타 자잘한 부분 수정 및 최적화(필요없는 부분 수정)
+
+
+**참고 자료**
+
+- How to use the Kaggle API from Colab : https://colab.research.google.com/github/corrieann/kaggle/blob/master/kaggle_api_in_colab.ipynb
+- image to dataset : https://github.com/letddo/flower_classification/blob/main/flower.ipynb
