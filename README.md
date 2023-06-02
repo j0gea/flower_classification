@@ -5,6 +5,30 @@
 - flower_모델 이름 : 각 모델의 코드 (그 모델의 코드만) ex: flower_resnet101, flower_resnet50
 
 ---
+
+## 모델 정리 표
+
+|모델/컨디션|컨디션1|컨디션2|
+|------|---|---|
+|모델1|정확도|정확도|
+|모델2|정확도|정확도|
+|모델3|정확도|정확도|
+
+- 정확도가 괜찮거나 특이점이 있는 모델은 따로 파일로 뽑아 링크 걸어두기
+- 링크거는 법 : [표시할 내용] (링크)
+
+ex
+
+|모델/컨디션|V2 100 B10 E20 EX|V2 100 B64 E50 EO|V2 100 B64 E50 EX|V2 64 B64 E50 EO|
+|------|---|---|---|---|
+|resnet101|42.76 %|36.985 %|44.374 %|29.512 %|
+
+|모델/컨디션|*V2* 200 B64 E50 EO|V1 224 B64 E50 EO|V1(8) 100 B64 E50 EO|
+|------|---|---|---|
+|resnet50v2|77.707 %|88.272 %|88.063 %|
+
+---
+
 ## 수정 이력
 
 ### 2023-06-02 BETA
@@ -18,5 +42,5 @@
 
 **참고 자료**
 
-- How to use the Kaggle API from Colab : https://colab.research.google.com/github/corrieann/kaggle/blob/master/kaggle_api_in_colab.ipynb
-- image to dataset : https://github.com/letddo/flower_classification/blob/main/flower.ipynb
+- [How to use the Kaggle API from Colab](https://colab.research.google.com/github/corrieann/kaggle/blob/master/kaggle_api_in_colab.ipynb)
+- [image to dataset](https://github.com/letddo/flower_classification/blob/main/flower.ipynb)
