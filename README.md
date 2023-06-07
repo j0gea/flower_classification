@@ -22,6 +22,10 @@ https://docs.google.com/spreadsheets/d/17olBml7qZoqZdUS6x3oNvyLL7GxbvkrQra46ukBN
 - tfrecords로 파일을 불러들이는 부분 추가(코드는 있으나 정리 필요)
 - 기타 자잘한 부분 수정 및 최적화(필요없는 부분 수정)
 
+### 2023-06-07
+
+- 웹 크롤러 추가(pixabay)
+- 이미지 분류기 추가
 
 **참고 자료**
 
