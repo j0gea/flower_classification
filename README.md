@@ -1,6 +1,8 @@
 # flower_classification
 ### 파일 정리
 
+코드 : https://colab.research.google.com/gist/letddo/b9a221b60bbaea3c78a85952f25b3c78/flower.ipynb
+
 - flower : 메인 코드(기본) (혹은 세 모델 모두 여기에 넣어서 정리해도 괜찮다)
 - flower_모델 이름 : 각 모델의 코드 (그 모델의 코드만) ex: flower_resnet101, flower_resnet50
 
